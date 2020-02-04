@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MusicalStructureApp</string>
+    <string name="music_name">Music name</string>
+    <string name="album">Album</string>
+    <string name="artist">artist</string>
+    <string name="first_att">Music Name</string>
+    <string name="second_att">Album Name</string>
+</resources>

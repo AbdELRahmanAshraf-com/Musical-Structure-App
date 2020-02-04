@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.musicalstructureapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity
+            android:name=".ui.AlbumSongsActivity"
+            android:label="Album Songs"
+            android:parentActivityName=".ui.SongInfoActivity" />
+        <activity
+            android:name=".ui.ArtistActivity"
+            android:label="Artist Albums"
+            android:parentActivityName=".ui.SongInfoActivity" />
+        <activity
+            android:name=".ui.SongInfoActivity"
+            android:label="Song Info"
+            android:parentActivityName=".SongsActivity" />
+        <activity
+            android:name=".SongsActivity"
+            android:label="Songs">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
